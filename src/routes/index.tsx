@@ -67,7 +67,7 @@ function Hero() {
       {/* Hero-specific video background */}
       <video
         className="absolute inset-0 w-full h-full object-cover"
-        src="/hero section.mp4"
+        src="/hero-section.mp4"
         autoPlay
         loop
         muted
@@ -152,7 +152,7 @@ function About() {
             {/* Video card */}
             <div className="relative rounded-3xl overflow-hidden border border-primary/20 shadow-2xl">
               <video
-                src="/the website owner .mp4"
+                src="/the-website-owner.mp4"
                 autoPlay
                 loop
                 muted
@@ -231,7 +231,7 @@ function Passions() {
               className="relative rounded-[28px] overflow-hidden group"
               style={{ animation: `fade-up 0.7s ease-out ${0.1 + i * 0.07}s both` }}
             >
-              <img src="/cards bg.webp" alt="" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-90" />
+              <img src="/cards-bg.webp" alt="" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-90" />
               <div className="relative w-full h-full liquid-glass p-7 flex flex-col gap-5">
               {/* Top badge */}
               <div className="liquid-glass inline-flex items-center gap-2 rounded-full px-3 py-1.5 w-fit">
@@ -298,7 +298,7 @@ function Skills() {
               className="relative rounded-[28px] overflow-hidden group"
               style={{ animation: `fade-up 0.7s ease-out ${0.1 + i * 0.07}s both` }}
             >
-              <img src="/cards bg.webp" alt="" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-90" />
+              <img src="/cards-bg.webp" alt="" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-90" />
               <div className="relative w-full h-full liquid-glass p-7 flex flex-col gap-5">
               {/* Top badge */}
               <div className="flex items-center gap-3">
@@ -375,7 +375,7 @@ function Journal() {
               style={{ animation: `fade-up 0.8s ease-out ${0.1 + i * 0.1}s both` }}
             >
               {/* Card background */}
-              <img src="/cards bg.webp" alt="" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-80" />
+              <img src="/cards-bg.webp" alt="" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-80" />
               
               <div className="relative w-full h-full liquid-glass p-8 flex flex-col justify-between min-h-[380px]">
                 <div>
@@ -448,7 +448,7 @@ function Contact() {
       {/* Looping video background for footer section */}
       <video
         className="absolute inset-0 w-full h-full object-cover"
-        src="/footer bg .mp4"
+        src="/footer-bg.mp4"
         autoPlay
         loop
         muted
@@ -512,7 +512,7 @@ function Home() {
       <div className="fixed inset-0 z-[-2]">
         <video
           className="w-full h-full object-cover"
-          src="/bg website.mp4"
+          src="/bg-website.mp4"
           autoPlay
           loop
           muted
