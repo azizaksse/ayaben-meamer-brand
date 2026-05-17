@@ -150,10 +150,10 @@
   .shadow-moon { box-shadow: var(--shadow-moon); }
 
   .glass {
-    background: oklch(0.22 0.06 285 / 50%);
+    background: oklch(0.38 0.06 285 / 45%);
     backdrop-filter: blur(20px) saturate(140%);
     -webkit-backdrop-filter: blur(20px) saturate(140%);
-    border: 1px solid oklch(0.55 0.10 295 / 18%);
+    border: 1px solid oklch(0.75 0.10 295 / 25%);
   }
 
   .moonlight-ring {
